@@ -19,8 +19,8 @@ Nutze den folgenden Archetype: `org.n52:servlet3-jetty-webapp-archetype:1.0.1`
 Die Aufgabe soll explizit durch die Integration einer Third-Party-Library zur
 API-Interaktion mit der OpenWeatherMap umgesetzt werden. Kandidaten:
 
-* https://bitbucket.org/akapribot/owm-japis
-* https://github.com/migtavares/owmClient
+* https://bitbucket.org/aksinghnet/owm-japis
+* https://github.com/migtavares/owmClient (ist ggf. veraltet)
 
 ### Starten der Anwendung
 
@@ -45,5 +45,5 @@ Hierfür soll per URL die Stadt übergeben werden, z.B.: `http://localhost:8080/
 Wer Interesse an `node.js` hat, kann diese Aufgabe mit Hilfe von node umsetzen.
 Einige Hinweise:
 
-* es gibt eine `openweathermap` npm library
-* `restify` ist ein leichtgewichtiger REST/HTTP server für node
+* es gibt eine `openweathermap-node` npm library
+* `restify` ist ein leichtgewichtiger REST/HTTP Server für node
